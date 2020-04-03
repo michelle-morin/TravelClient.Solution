@@ -5,7 +5,6 @@ namespace TravelClient.ViewModels
   public class RegisterViewModel
   {
     [Required]
-    [EmailAddress]
     [Display(Name = "UserName")]
     public string UserName { get; set; }
 
