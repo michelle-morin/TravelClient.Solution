@@ -18,7 +18,7 @@ _This MVC application interacts with a custom-built Travel API, and allows users
 | Only registered, logged-in users are able to create, update, and delete reviews | user is not logged in and/or not registered and clicks "add review", "edit review", or "delete review" | user redirected to login page |
 | If user visits '/Reviews' route, the application displays all reviews in the database, ordered from highest rated to lowest rated | user visits '/Reviews' | application displays list of all reviews in order of rating |
 | If a registered user clicks "add new review" link at '/Reviews', the application redirects to a form ('/Reviews/Create') for adding a new review | registered user clicks "add new review" | the application redirects to form at 'Reviews/Create' |
-| When a registered user submits the new review form, the application adds the new review to the reviews table of the travel database and redirects to '/Reviews' | registered user submits new treat form | the application adds new treat to treats table and redirects to '/Reviews' |
+| When a registered user submits the new review form, the application adds the new review to the reviews table of the travel database and redirects to '/Reviews' | registered user submits new review form | the application adds new review to reviews table and redirects to '/Reviews' |
 | A registered user can delete a review from the list of all reviews | registered user selects "delete review" option | application deletes review from database |
 | A registered user can edit a review from the list of all reviews | registered user selects "edit review" | application redirects to edit form |
 
